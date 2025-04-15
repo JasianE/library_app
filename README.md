@@ -1,7 +1,5 @@
 # Library app
 
 ## Features
-<pre>
-Can create book objects that have name, title, author, RFID, and read properties
+Can create book objects that have name, title, author, RFID, and read properties <br />
 Live link: https://newlibraryapp.web.app
-</pre>
