@@ -36,3 +36,164 @@
     transform: rotate(360deg);
   }
 }
+
+.book-box {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 300px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.book-box:hover {
+  transform: translateY(-4px);
+}
+
+.book-title {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.book-author,
+.book-year,
+.book-status {
+  margin: 4px 0;
+  color: #555;
+}
+
+.status-text {
+  font-weight: bold;
+}
+
+.book-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.book-actions-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+  background-color: rgb(248, 191, 196);
+}
+
+.toggle-read {
+  background-color: #007bff;
+  color: white;
+}
+
+.toggle-read:hover {
+  background-color: #0056b3;
+}
+
+.delete-book {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-book:hover {
+  background-color: #a71d2a;
+}
+
+.book-form {
+  max-width: 350px;
+  padding: 20px;
+  background: #f0f0f5;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.book-form h3 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.book-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.book-form input[type="text"],
+.book-form input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+}
+
+.book-form .checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.book-form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 12px;
+}
+
+.book-form-button:hover {
+  background-color: #218838;
+}
+.book-form-button2 {
+  width: 50%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+  align-self: center;
+  margin-left:25%;
+}
+
+.book-form-button2:hover {
+  background-color: #218838;
+}
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+html{
+  background-color: beige;
+}
+.middle{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
