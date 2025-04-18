@@ -1,13 +1,14 @@
-function Book(title, year, author){
-    this.title = title;
-    this.year = year;
-    this.author = author;
-    this.rfid = crypto.randomUUID();
-    this.read = false;
+class Book{
+    constructor(title, year, author){
+        this.title = title
+        this.year = year;
+        this.author = author;
+        this.rfid = crypto.randomUUID();
+        this.read = false;
+    }
 
-    this.changeRead = () =>{
+    changeRead(){
         this.read = !this.read;
     }
 }
-
 export default Book;
